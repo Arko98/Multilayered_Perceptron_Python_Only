@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
 
 def Dense(units, input_matrix, labels, epochs):
     import numpy as np
@@ -108,4 +103,4 @@ def evaluate(test_input, test_label, weight_dict):
     print('Predicted Labels = \n'+str(y_prediction))
     print('Test Accuracy = {} % '.format(Accuracy*100))
     print('Misclassified label count = '+str(count))
-
+    
